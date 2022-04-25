@@ -1,9 +1,4 @@
-<style>
-@font-face {
-  font-family: moreland;
-  src: url("./font/Moreland.ttf");
-}
-</style>
+<link rel="stylesheet" href="./css/index.css">
 
 <div style="font-family: moreland">
   <h1>Hello, Call me Gypsophlia.</h1>

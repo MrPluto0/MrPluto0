@@ -2,7 +2,6 @@
 
 <div style="font-family: moreland">
   <h1>Hello, Call me Gypsophlia.</h1>
-  <h3 align="right">A Romantic and Rational Coder</h3>
   <h4 align="right">流水不腐，户枢不蠹</h4>
 </div>
 

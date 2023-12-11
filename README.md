@@ -2,7 +2,7 @@
 
 <div style="font-family: moreland">
   <h1>Hello, Call me Gypsophlia.</h1>
-  <h4 align="right">流水不腐，户枢不蠹</h4>
+  <h4 align="right">出门一笑，月落江横，数峰天远</h4>
 </div>
 
 ### Brief For Me

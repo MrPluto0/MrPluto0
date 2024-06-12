@@ -7,10 +7,10 @@
 
 ### Brief For Me
 
-- :sparkles: An undergraduate in BUPT, majoring in Computer Science.
-- :four_leaf_clover: Be passionate in **Frontend Engineering**.
-- :anchor: Be learning about Backend.
-- :cyclone: Thinking about the secret of life.
+- :sparkles: A postgraduate in BUPT, majoring in Computer Science.
+- :four_leaf_clover: Be passionate in **Frontend and Backend Engineering**.
+- :anchor: Be learning about Go.
+- :cyclone: Finding the beauty of life.
 - :love_letter: Nice to meet you and wish to contact!
 
 ### Some Funny Projects

@@ -1,29 +1,63 @@
-<link rel="stylesheet" href="./css/index.css">
+<div align="center">
 
-<div style="font-family: moreland">
-  <h1>Hello, Call me Gypsophlia.</h1>
-  <h4 align="right">出门一笑，月落江横，数峰天远</h4>
+# 👋 Hello, I'm Gypsophlia
+
+### *"出门一笑,月落江横,数峰天远"*
+
+[![GitHub followers](https://img.shields.io/github/followers/MrPluto0?style=social)](https://github.com/MrPluto0)
+[![Visitor](https://visitor-badge.laobi.icu/badge?page_id=MrPluto0.MrPluto0)](https://github.com/MrPluto0)
+
 </div>
 
-### Brief For Me
+## 🎓 Education
 
-- :sparkles: A postgraduate in BUPT, majoring in Computer Science.
-- :four_leaf_clover: Be passionate in **Frontend and Backend Engineering**.
-- :anchor: Be learning about Go.
-- :cyclone: Finding the beauty of life.
-- :love_letter: Nice to meet you and wish to contact!
+<div align="center">
 
-### Some Funny Projects
+| Degree | University | Major | Period |
+|:------:|:-----------|:------|:------:|
+| **Master** | Beijing University of Posts and Telecommunications (BUPT) | Computer Science | 2023 - 2026 |
+| **Bachelor** | Beijing University of Posts and Telecommunications (BUPT) | Computer Science | 2019 - 2023 |
 
-- [Music Weather](https://gitee.com/KamenRider41/alibabawudao) --- Audio visualization
-- [Three Cube](https://gitee.com/gypsophlia/three-cube) --- 3D Collaborative Editing
-- [CreateUI](https://github.com/MrPluto0/CreateUI) --- Vue Components lib
-- [JS Interpreter](https://github.com/MrPluto0/js-interpreter) --- AST
-- VSCode Extension (internal project) --- React Webview Architecture with VSCode
+</div>
 
-### Skills For Me
+## 💼 Experience
 
-- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TS](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-- ![VueJs](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Electron](https://img.shields.io/badge/Electron-2B2E3A?style=for-the-badge&logo=electron&logoColor=9FEAF9) ![Visual Studio Code](https://img.shields.io/badge/Vscode%20Extensions-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+<div align="center">
 
+| Year | Company | Role | Team |
+|:----:|:--------|:-----|:-----|
+| **2022** | **ByteDance** | Software Engineer Intern | TikTok Commercialization |
+| **2025** | **Alibaba** | Software Engineer Intern | Taobao Live Streaming |
+| **2026** | **ByteDance** | Incoming SDE 🚀 | Trae Team |
 
+</div>
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=MrPluto0&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F75C7E&icon_color=F75C7E" width="49%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=MrPluto0&theme=radical&hide_border=true&background=0D1117&ring=F75C7E&fire=F75C7E&currStreakLabel=F75C7E" width="49%" />
+
+</div>
+
+## 💬 Let's Connect!
+
+<div align="center">
+
+*Passionate about frontend & backend engineering. Always exploring new tech, seeking beauty in code and life.* 🌸
+
+**Open to interesting conversations and collaborations!**
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MrPluto0)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
+
+</div>

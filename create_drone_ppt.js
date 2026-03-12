@@ -7,16 +7,16 @@ const SLIDE_W = 13.333;
 const SLIDE_H = 7.5;
 
 const COLORS = {
-  navy: "0B1B2B",
-  deep: "065A82",
-  teal: "1C7293",
-  mint: "02C39A",
-  ink: "0F172A",
-  text: "1F2937",
-  muted: "64748B",
-  bg: "F2F7FA",
-  card: "FFFFFF",
-  line: "D6E1EA",
+  navy: "050505",
+  deep: "0A1A2F",
+  teal: "00F0FF",
+  mint: "00FF99",
+  ink: "FFFFFF",
+  text: "E0E0E0",
+  muted: "94A3B8",
+  bg: "121212",
+  card: "1E1E1E",
+  line: "333333",
   warn: "F59E0B",
   ok: "10B981",
   bad: "EF4444",
@@ -225,7 +225,7 @@ function s1() {
     h: 0.5,
     fontFace: FONTS.body,
     fontSize: 18,
-    color: "DCE7F1",
+    color: COLORS.text,
   });
   slide.addText(`2026-03`, {
     x: 0.78,
@@ -234,7 +234,7 @@ function s1() {
     h: 0.35,
     fontFace: FONTS.body,
     fontSize: 12,
-    color: "A9C2D6",
+    color: COLORS.muted,
   });
 }
 
@@ -286,7 +286,7 @@ function s3() {
     y: cy - 0.55,
     w: 2.8,
     h: 1.1,
-    fill: { color: "FFFFFF" },
+    fill: { color: COLORS.card },
     line: { color: COLORS.line, width: 1 },
     radius: 14,
   });
@@ -318,7 +318,7 @@ function s3() {
       y: n.y,
       w: 3.2,
       h: 1.45,
-      fill: { color: "FFFFFF" },
+      fill: { color: COLORS.card },
       line: { color: COLORS.line, width: 1 },
       radius: 14,
     });
@@ -358,7 +358,7 @@ function s3() {
       y: nodeY,
       w: lineW,
       h: 0,
-      line: { color: "BFD3E2", width: 2, dash: "dash" },
+      line: { color: COLORS.muted, width: 2, dash: "dash" },
     });
   });
 
@@ -367,7 +367,7 @@ function s3() {
     y: 2.25,
     w: 5.4,
     h: 4.95,
-    fill: { color: "FFFFFF" },
+    fill: { color: COLORS.card },
     line: { color: COLORS.line, width: 1 },
     radius: 14,
   });
@@ -490,7 +490,7 @@ function s5() {
       y,
       w,
       h,
-      fill: { color: "FFFFFF" },
+      fill: { color: COLORS.card },
       line: { color: COLORS.line, width: 1 },
       radius: 14,
     });
@@ -530,7 +530,7 @@ function s6() {
     y,
     w,
     h: 3.9,
-    fill: { color: "FFFFFF" },
+    fill: { color: COLORS.card },
     line: { color: COLORS.line, width: 1 },
     radius: 14,
   });
@@ -564,7 +564,7 @@ function s6() {
     y: top - 0.05,
     w: 0,
     h: rowH * (points.length - 1) + 0.1,
-    line: { color: "BFD3E2", width: 3 },
+    line: { color: COLORS.muted, width: 3 },
   });
 
   points.forEach(([t, b], i) => {
@@ -614,7 +614,7 @@ function s7() {
     y: topY,
     w: leftW,
     h: 4.8,
-    fill: { color: "FFFFFF" },
+    fill: { color: COLORS.card },
     line: { color: COLORS.line, width: 1 },
     radius: 14,
   });
@@ -684,7 +684,7 @@ function s7() {
     y: topY,
     w: rightW,
     h: 4.8,
-    fill: { color: "FFFFFF" },
+    fill: { color: COLORS.card },
     line: { color: COLORS.line, width: 1 },
     radius: 14,
   });
@@ -704,7 +704,7 @@ function s7() {
   const mw = rightW - 1.1;
   const mh = 3.25;
 
-  slide.addShape(pptx.ShapeType.rect, { x: mx, y: my, w: mw, h: mh, fill: { color: "FFFFFF" }, line: { color: COLORS.line, width: 1 } });
+  slide.addShape(pptx.ShapeType.rect, { x: mx, y: my, w: mw, h: mh, fill: { color: COLORS.card }, line: { color: COLORS.line, width: 1 } });
   slide.addShape(pptx.ShapeType.line, { x: mx + mw / 2, y: my, w: 0, h: mh, line: { color: COLORS.line, width: 1 } });
   slide.addShape(pptx.ShapeType.line, { x: mx, y: my + mh / 2, w: mw, h: 0, line: { color: COLORS.line, width: 1 } });
 
@@ -735,7 +735,7 @@ function s8() {
   const y = 2.6;
   const w = SLIDE_W - 1.5;
   const h = 3.9;
-  slide.addShape(pptx.ShapeType.roundRect, { x, y, w, h, fill: { color: "FFFFFF" }, line: { color: COLORS.line, width: 1 }, radius: 14 });
+  slide.addShape(pptx.ShapeType.roundRect, { x, y, w, h, fill: { color: COLORS.card }, line: { color: COLORS.line, width: 1 }, radius: 14 });
 
   const steps = [
     ["需求定义", "场景/范围/产出/频率"],
@@ -786,8 +786,8 @@ function s8() {
         y: baseY + 0.95,
         w: 0.34,
         h: 0.35,
-        fill: { color: "BFD3E2" },
-        line: { color: "BFD3E2" },
+        fill: { color: COLORS.muted },
+        line: { color: COLORS.muted },
       });
     }
   });
@@ -810,7 +810,7 @@ function s9() {
   const x = 0.7;
   const y = 2.35;
 
-  slide.addShape(pptx.ShapeType.roundRect, { x, y, w: 6.35, h: 4.85, fill: { color: "FFFFFF" }, line: { color: COLORS.line, width: 1 }, radius: 14 });
+  slide.addShape(pptx.ShapeType.roundRect, { x, y, w: 6.35, h: 4.85, fill: { color: COLORS.card }, line: { color: COLORS.line, width: 1 }, radius: 14 });
   slide.addText("对比（示例：巡检/测绘类任务）", { x: x + 0.35, y: y + 0.35, w: 5.8, h: 0.35, fontFace: FONTS.head, fontSize: 18, bold: true, color: COLORS.ink });
 
   const rows = [
@@ -856,7 +856,7 @@ function s9() {
 
   const rx = 7.25;
   const rw = SLIDE_W - rx - 0.6;
-  slide.addShape(pptx.ShapeType.roundRect, { x: rx, y, w: rw, h: 4.85, fill: { color: "FFFFFF" }, line: { color: COLORS.line, width: 1 }, radius: 14 });
+  slide.addShape(pptx.ShapeType.roundRect, { x: rx, y, w: rw, h: 4.85, fill: { color: COLORS.card }, line: { color: COLORS.line, width: 1 }, radius: 14 });
   slide.addText("价值分解（示例）", { x: rx + 0.35, y: y + 0.35, w: rw - 0.7, h: 0.35, fontFace: FONTS.head, fontSize: 18, bold: true, color: COLORS.ink });
   slide.addText("单位：相对贡献（0–100）", { x: rx + 0.35, y: y + 0.75, w: rw - 0.7, h: 0.28, fontFace: FONTS.body, fontSize: 11, color: COLORS.muted });
 
@@ -888,7 +888,7 @@ function s10() {
   slide.addShape(pptx.ShapeType.ellipse, { x: -2.2, y: SLIDE_H - 5.9, w: 7.4, h: 7.4, fill: { color: COLORS.mint, transparency: 62 }, line: { color: COLORS.mint, transparency: 100 } });
 
   slide.addText("结论", { x: 0.75, y: 1.25, w: 5.5, h: 0.6, fontFace: FONTS.head, fontSize: 44, bold: true, color: "FFFFFF" });
-  slide.addText("三句话带走", { x: 0.78, y: 1.95, w: 5.5, h: 0.35, fontFace: FONTS.body, fontSize: 14, color: "CFE0EE" });
+  slide.addText("三句话带走", { x: 0.78, y: 1.95, w: 5.5, h: 0.35, fontFace: FONTS.body, fontSize: 14, color: COLORS.text });
 
   const items = [
     ["先定义任务工况", "覆盖范围、环境、频率、数据产出与SLA"],
@@ -897,10 +897,10 @@ function s10() {
   ];
   items.forEach(([t, b], i) => {
     const y = 2.65 + i * 1.25;
-    slide.addShape(pptx.ShapeType.roundRect, { x: 0.75, y, w: 11.8, h: 1.0, fill: { color: "10263A", transparency: 15 }, line: { color: "10263A", transparency: 100 }, radius: 14 });
+    slide.addShape(pptx.ShapeType.roundRect, { x: 0.75, y, w: 11.8, h: 1.0, fill: { color: COLORS.card, transparency: 15 }, line: { color: COLORS.card, transparency: 100 }, radius: 14 });
     addIconCircle(slide, { x: 1.25, y: y + 0.5, r: 0.22, fill: i === 1 ? COLORS.teal : COLORS.mint, glyph: String(i + 1) });
     slide.addText(t, { x: 1.6, y: y + 0.2, w: 10.8, h: 0.35, fontFace: FONTS.head, fontSize: 20, bold: true, color: "FFFFFF" });
-    slide.addText(b, { x: 1.6, y: y + 0.55, w: 10.8, h: 0.32, fontFace: FONTS.body, fontSize: 14, color: "DCE7F1" });
+    slide.addText(b, { x: 1.6, y: y + 0.55, w: 10.8, h: 0.32, fontFace: FONTS.body, fontSize: 14, color: COLORS.text });
   });
 
   slide.addText("Q&A", { x: 0.78, y: 6.95, w: 3.0, h: 0.4, fontFace: FONTS.head, fontSize: 18, bold: true, color: "FFFFFF" });
@@ -916,6 +916,59 @@ s7();
 s8();
 s9();
 s10();
+s11();
+
+function s11() {
+  const slide = pptx.addSlide();
+  slideTitleOnly(slide, "附录", "全球无人机市场数据", "数据来源：主要行业研报 (2024–2026)");
+
+  const x = 0.75;
+  const y = 2.4;
+  const w = SLIDE_W - 1.5;
+
+  // Market Size Card
+  slide.addShape(pptx.ShapeType.roundRect, { x, y, w: 5.8, h: 4.2, fill: { color: COLORS.card }, line: { color: COLORS.line, width: 1 }, radius: 14 });
+  slide.addText("市场规模预测 (USD Billion)", { x: x + 0.35, y: y + 0.35, w: 5.0, h: 0.4, fontFace: FONTS.head, fontSize: 18, bold: true, color: COLORS.ink });
+  
+  const chartY = y + 1.2;
+  const bars = [
+    { year: "2024", val: 38.2, h: 1.5 },
+    { year: "2025", val: 45.6, h: 1.9 },
+    { year: "2026", val: 54.9, h: 2.4 },
+    { year: "2030", val: 92.5, h: 3.5 },
+  ];
+  
+  const barW = 0.8;
+  const gap = 0.5;
+  const startX = x + 0.8;
+  
+  bars.forEach((b, i) => {
+     const bx = startX + i * (barW + gap);
+     const by = chartY + (3.5 - b.h); // Align bottom
+     slide.addShape(pptx.ShapeType.rect, { x: bx, y: by, w: barW, h: b.h, fill: { color: i === 3 ? COLORS.teal : COLORS.mint }, line: { color: COLORS.line, width: 0 } });
+     slide.addText(b.year, { x: bx, y: chartY + 3.6, w: barW, h: 0.3, fontFace: FONTS.body, fontSize: 12, color: COLORS.muted, align: "center" });
+     slide.addText(b.val, { x: bx, y: by - 0.3, w: barW, h: 0.3, fontFace: FONTS.head, fontSize: 12, bold: true, color: COLORS.ink, align: "center" });
+  });
+
+  // Key Drivers Card
+  const rx = x + 6.2;
+  const rw = w - 6.2;
+  slide.addShape(pptx.ShapeType.roundRect, { x: rx, y, w: rw, h: 4.2, fill: { color: COLORS.card }, line: { color: COLORS.line, width: 1 }, radius: 14 });
+  slide.addText("核心驱动力", { x: rx + 0.35, y: y + 0.35, w: rw - 0.7, h: 0.4, fontFace: FONTS.head, fontSize: 18, bold: true, color: COLORS.ink });
+  
+  const drivers = [
+      "法规放宽 (U-Space/UTM)",
+      "电池密度突破 (>400Wh/kg)",
+      "AI 边缘计算能力提升",
+      "人力成本上升替代效应"
+  ];
+  
+  drivers.forEach((d, i) => {
+      const dy = y + 1.2 + i * 0.7;
+      addIconCircle(slide, { x: rx + 0.5, y: dy + 0.2, r: 0.15, fill: COLORS.deep, glyph: ">" });
+      slide.addText(d, { x: rx + 0.8, y: dy, w: rw - 1.2, h: 0.6, fontFace: FONTS.body, fontSize: 14, color: COLORS.text, valign: "mid" });
+  });
+}
 
 const outPath = "/workspace/无人机_概览.pptx";
 pptx.writeFile({ fileName: outPath });

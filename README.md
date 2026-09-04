@@ -29,7 +29,7 @@
 | **2022** | **ByteDance** | Frontend Engineer Intern | TikTok landing page |
 | **2025** | **Alibaba** | Terminal Engineer Intern | Taobao Live Client |
 | **2025** | **DINQ** | Software Engineer | FE Structure & Card |
-| **2026** | **ByteDance** | Incoming SDE 🚀 | Trae - Vibe Coding |
+| **2026** | **ByteDance** | AI Frontend Engineer 🚀 | Trae IDE / Work |
 
 </div>
 
